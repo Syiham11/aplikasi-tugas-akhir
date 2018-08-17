@@ -27,10 +27,10 @@
             android:padding="5dp">
 
             <ImageView
-                android:id="@+id/imgView"
+                android:id="@+id/icon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/bell" />
 
         </LinearLayout>
 
@@ -42,7 +42,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/text1"
+                android:id="@+id/txTgl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Text1"
@@ -50,7 +50,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/text2"
+                android:id="@+id/txWaktu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Text2"
@@ -65,11 +65,11 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/button"
+                android:id="@+id/btnDelete"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@android:drawable/star_big_on" />
+                android:src="@drawable/delete" />
         </LinearLayout>
 
     </LinearLayout>
