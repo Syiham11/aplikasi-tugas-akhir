@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">TA</string>
+    <string name="app_name">Alarm Controller</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_history">History Kejadian</string>
+
+    <string name="TabelHistory">
+        create table TabelHistory (
+        id integer primary key autoincrement,
+        tanggal varchar(11),
+        waktu varchar(6));
+    </string>
+
+    <string name="HapusSemuaTabel">
+        drop table if exists TabelHistory;
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
