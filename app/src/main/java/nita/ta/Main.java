@@ -2,6 +2,7 @@ package nita.ta;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -106,7 +107,7 @@ public class Main extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.menuAbout) {
-            return true;
+            startActivity(new Intent(this, About.class));
         }
         else if(id == R.id.menuDeleteAll) {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
